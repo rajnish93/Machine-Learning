@@ -30,7 +30,6 @@ In order to install PyTorch head over to the PyTorch site select your specs and 
 ### Project assets:
 
 - `Image Classifier Project.ipynb` Jupyter Notebook
-- `Image Classifier Project.html` HTML export of the Jupyter Notebook above.
 - `setup.py` Main Script
 - `train.py` Command line tool to train a new network on a data set.
 - `predict.py` Command line tool to to predict flower name from an image.
