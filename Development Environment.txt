@@ -1,44 +1,46 @@
-1. Install the following for pip and virtual environment
+# Using virtualenv
+## 1. Install the following for pip and virtual environment
 
-sudo apt-get install python3-pip python3-dev python-virtualenv
+`sudo apt-get install python3-pip python3-dev python-virtualenv`
 
-2. Create virtual environment named 'AI' any name of your choice
+## 2. Create virtual environment named 'AI' any name of your choice
 
-virtualenv -p python3 AI
+`virtualenv -p python3 AI`
 
-3. To activate virtual environment
+## 3. To activate virtual environment
 
-source AI/bin/activate
+`source AI/bin/activate`
 
-4. Your virtual environemt
+## 4. Your virtual environemt
 
-(AI) BOT:~$
+**(AI) BOT:~$**
 
-5. To deactivate virtual environment
+## 5. To deactivate virtual environment
 
-deactivate
+`deactivate`
 
-Now to install different Machine and Deep Learning Library in the virtual environment
+# Install Machine Learning Library in the virtual environment
 
-1. Activate the virtual environment
+## 1. Activate the virtual environment
 
-source AI/bin/activate
+`source AI/bin/activate`
 
-2. Check install packages
-pip list--
+## 2. Check install packages
 
-3. Install the following packages
+`pip list--`
 
-pip install numpy scipy pandas matplotlib 
+## 3. Install the following packages
 
-4. Install Scikit-learn
+`pip install numpy scipy pandas matplotlib`
 
-pip install scikit-learn
+## 4. Install Scikit-learn
 
-5. Install Tensorflow for cpu
+`pip install scikit-learn`
 
-pip install tensorflow keras
+## 5. Install Tensorflow for cpu
 
-There are many more machine and deep learning packages go ahead and try.
+`pip install tensorflow keras`
+
+There are many more machine learning packages go ahead and try.
 
 
