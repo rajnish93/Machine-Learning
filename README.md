@@ -2,7 +2,7 @@
 
 ## Using python virtualenv
 
-[Click here](Development Environment.txt)
+[Click here](Development Environment.md)
 
 ## Using Miniconda
 
