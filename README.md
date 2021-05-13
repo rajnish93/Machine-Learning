@@ -1,6 +1,8 @@
 # Setting up your development environment
 
-## Using python virtualenv [Click here](Development Environment.txt)
+## Using python virtualenv
+
+[Click here](Development Environment.txt)
 
 ## Using Miniconda
 
@@ -29,10 +31,10 @@ unset __conda_setup
 
 ```
 
-3. Now exit the terminal all windows and run it again
-   Disable conda's base environment on startup using `conda config --set auto_activate_base false`
+3. Now exit all terminal windows and run it again
+4. Disable conda's base environment on startup using `conda config --set auto_activate_base false`
    Exit the terminal and run it again. Now you will see conda's base environment is disable on startup
-4. Create a conda environment
+5. Create a conda environment
    `conda create -n kaggle python=3.8.5`
    A conda environment is created with name `kaggle` which can be activated using:
    `conda activate kaggle`
