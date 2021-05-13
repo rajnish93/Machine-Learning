@@ -31,10 +31,15 @@ unset __conda_setup
 
 ```
 
-3. Now exit all terminal windows and run it again
-4. Disable conda's base environment on startup using `conda config --set auto_activate_base false`
-   Exit the terminal and run it again. Now you will see conda's base environment is disable on startup
-5. Create a conda environment
-   `conda create -n kaggle python=3.8.5`
-   A conda environment is created with name `kaggle` which can be activated using:
-   `conda activate kaggle`
+3.  Now exit all terminal windows and run it again
+4.  Disable conda's base environment on startup using `conda config --set auto_activate_base false`
+    Exit the terminal and run it again. Now you will see conda's base environment is disable on startup
+5.  Create a conda environment
+    `conda create -n kaggle python=3.8.5`
+    A conda environment is created with name `kaggle` which can be activated using:
+    `conda activate kaggle`
+6.  Install the package from conda repository or PyPi repository using `conda/pip install package_name`
+7.  Create the environment from file using `conda env create -f environment.yml`
+8.  List all packages in the current environment:`conda list`
+9.  Save packages for future use:`conda list --export > package.yml`
+10. Export your active environment to a new file: `conda env export > environment.yml`
